@@ -289,6 +289,8 @@ class TestAll(unittest.TestCase):
             data = fh.read()
             return json.loads(validator.check_manifest(data, '3.0'))
 
+    def printValidationerror(self, filename, errors):                
+        print ('Failed to validate: {}'.format(filename))
         errorCount = 1
 
         for err in errors:
