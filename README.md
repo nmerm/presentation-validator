@@ -29,6 +29,19 @@ warnings | An array of warning messages      | "WARNING: Resource type 'sc:Manif
 
 ## Local Installation
 
+**Step zero: Clone this repository**
+
+```bash
+git clone <repo_url> <project_folder>
+```
+
+**Step zero bis: Create and activate a [virtual environment](https://virtualenv.pypa.io/en/latest/)**
+
+```bash
+cd <project_folder>
+virtualenv venv
+source venv/bin/activate
+```
 
 **Step one:  Install dependencies**
 
